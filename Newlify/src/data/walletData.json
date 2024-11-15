@@ -1,0 +1,202 @@
+{
+  "usuarios": [
+    {
+      "usuario_id": 1,
+      "nombre": "Juan Perez",
+      "email": "juan.perez@example.com",
+      "telefono": "123456789",
+      "fecha_registro": "2023-01-15",
+      "saldo": 590000.75
+    },
+    {
+      "usuario_id": 2,
+      "nombre": "Ana Gomez",
+      "email": "ana.gomez@example.com",
+      "telefono": "987654321",
+      "fecha_registro": "2023-02-20",
+      "saldo": 118000.00
+    },
+    {
+      "usuario_id": 3,
+      "nombre": "Carlos Mendoza",
+      "email": "carlos.mendoza@example.com",
+      "telefono": "123123123",
+      "fecha_registro": "2023-03-10",
+      "saldo": 295000.00
+    },
+    {
+      "usuario_id": 4,
+      "nombre": "Maria Lopez",
+      "email": "maria.lopez@example.com",
+      "telefono": "321321321",
+      "fecha_registro": "2023-04-05",
+      "saldo": 472000.50
+    },
+    {
+      "usuario_id": 5,
+      "nombre": "Jose Ramirez",
+      "email": "jose.ramirez@example.com",
+      "telefono": "555555555",
+      "fecha_registro": "2023-05-15",
+      "saldo": 157000.00
+    }
+  ],
+  "tarjetas": [
+    {
+      "tarjeta_id": 1,
+      "usuario_id": 1,
+      "numero_tarjeta": "4111111111111111",
+      "fecha_expiracion": "2025-01",
+      "cvv": "123",
+      "tipo": "debito"
+    },
+    {
+      "tarjeta_id": 2,
+      "usuario_id": 2,
+      "numero_tarjeta": "4222222222222222",
+      "fecha_expiracion": "2025-02",
+      "cvv": "234",
+      "tipo": "credito"
+    },
+    {
+      "tarjeta_id": 3,
+      "usuario_id": 3,
+      "numero_tarjeta": "4333333333333333",
+      "fecha_expiracion": "2026-03",
+      "cvv": "345",
+      "tipo": "debito"
+    },
+    {
+      "tarjeta_id": 4,
+      "usuario_id": 4,
+      "numero_tarjeta": "4444444444444444",
+      "fecha_expiracion": "2026-04",
+      "cvv": "456",
+      "tipo": "credito"
+    },
+    {
+      "tarjeta_id": 5,
+      "usuario_id": 5,
+      "numero_tarjeta": "4555555555555555",
+      "fecha_expiracion": "2027-05",
+      "cvv": "567",
+      "tipo": "debito"
+    }
+  ],
+  "transacciones": [
+    {
+      "transaccion_id": 1,
+      "usuario_id": 1,
+      "tipo": "compra",
+      "monto": 784000.00,
+      "fecha": "2024-11-01",
+      "descripcion": "Compra en supermercado"
+    },
+    {
+      "transaccion_id": 2,
+      "usuario_id": 2,
+      "tipo": "envio",
+      "monto": 196000.00,
+      "fecha": "2024-11-03",
+      "descripcion": "Envío a amigo"
+    },
+    {
+      "transaccion_id": 3,
+      "usuario_id": 3,
+      "tipo": "compra",
+      "monto": 588000.00,
+      "fecha": "2024-11-05",
+      "descripcion": "Pago de servicios"
+    },
+    {
+      "transaccion_id": 4,
+      "usuario_id": 4,
+      "tipo": "envio",
+      "monto": 392000.00,
+      "fecha": "2024-11-06",
+      "descripcion": "Transferencia familiar"
+    },
+    {
+      "transaccion_id": 5,
+      "usuario_id": 5,
+      "tipo": "compra",
+      "monto": 296000.50,
+      "fecha": "2024-11-08",
+      "descripcion": "Compra en restaurante"
+    }
+  ],
+  "recargas": [
+    {
+      "recarga_id": 1,
+      "usuario_id": 1,
+      "monto": 1176000.00,
+      "fecha": "2024-11-10",
+      "metodo": "tarjeta de debito"
+    },
+    {
+      "recarga_id": 2,
+      "usuario_id": 2,
+      "monto": 588000.00,
+      "fecha": "2024-11-11",
+      "metodo": "transferencia bancaria"
+    },
+    {
+      "recarga_id": 3,
+      "usuario_id": 3,
+      "monto": 1960000.00,
+      "fecha": "2024-11-12",
+      "metodo": "tarjeta de credito"
+    },
+    {
+      "recarga_id": 4,
+      "usuario_id": 4,
+      "monto": 784000.00,
+      "fecha": "2024-11-13",
+      "metodo": "tarjeta de debito"
+    },
+    {
+      "recarga_id": 5,
+      "usuario_id": 5,
+      "monto": 392000.00,
+      "fecha": "2024-11-14",
+      "metodo": "transferencia bancaria"
+    }
+  ],
+  "retiros": [
+    {
+      "retiro_id": 1,
+      "usuario_id": 1,
+      "monto": 196000.00,
+      "fecha": "2024-11-02",
+      "metodo": "ATM"
+    },
+    {
+      "retiro_id": 2,
+      "usuario_id": 2,
+      "monto": 294000.00,
+      "fecha": "2024-11-04",
+      "metodo": "transferencia bancaria"
+    },
+    {
+      "retiro_id": 3,
+      "usuario_id": 3,
+      "monto": 392000.00,
+      "fecha": "2024-11-06",
+      "metodo": "ATM"
+    },
+    {
+      "retiro_id": 4,
+      "usuario_id": 4,
+      "monto": 588000.00,
+      "fecha": "2024-11-07",
+      "metodo": "transferencia bancaria"
+    },
+    {
+      "retiro_id": 5,
+      "usuario_id": 5,
+      "monto": 784000.00,
+      "fecha": "2024-11-09",
+      "metodo": "ATM"
+    }
+  ]
+}
